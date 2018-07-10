@@ -172,8 +172,8 @@
       "/Users/Keegan/turing/2module/timed_challenge/app/models/course.rb": [
         1,
         1,
-        null,
         1,
+        null,
         null,
         1,
         null
@@ -194,8 +194,8 @@
         1,
         1,
         1,
-        null,
         1,
+        null,
         null,
         1,
         null
@@ -285,6 +285,6 @@
         null
       ]
     },
-    "timestamp": 1531258850
+    "timestamp": 1531259106
   }
 }
