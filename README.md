@@ -47,10 +47,10 @@ As a user
 When I visit any page
 I see links to see a list of all students, or create a new student
 As a user -->
-When I visit `/students`
+<!-- When I visit `/students`
 And I click on a student's name
 I am taken to a show page for that student
-Addresses (One-to-Many)
+Addresses (One-to-Many) -->
 Let's add addresses to this application. In this particular scenario assume that a student can have many addresses (i.e. maybe they have a current address, a permanent address, a parent address, a summer address, etc.), and that an address belongs to only one student. This might not be a real-life situation (what about brothers and sisters at the same school?), but go with it. For today, this will be a one-to-many relationship.
 
 Creating a New Address
