@@ -52,7 +52,7 @@ And I click on a student's name
 I am taken to a show page for that student
 Addresses (One-to-Many) -->
 <!-- Let's add addresses to this application. In this particular scenario assume that a student can have many addresses (i.e. maybe they have a current address, a permanent address, a parent address, a summer address, etc.), and that an address belongs to only one student. This might not be a real-life situation (what about brothers and sisters at the same school?), but go with it. For today, this will be a one-to-many relationship. -->
-
+<!-- 
 Creating a New Address
 As a user
 When I visit `/students/:id/addresses/new`
@@ -68,7 +68,7 @@ Student has Many Addresses
 As a user
 When I visit `/students/:id`
 I see all addresses associated with that student (e.g. if that student has two addresses, I see both)
-Courses (Many-to-Many)
+Courses (Many-to-Many) -->
 
 
 Now we want to check that a student can be enrolled in classes. For this section, don't worry about creating a new course. Assume that all courses will be created in the database by an administrator. Also assume that all enrollments (e.g. the particular courses a student will be taking) will be created by an adminstrator. For now, implement the stories below that allow you to view existing relationships.
