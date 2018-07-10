@@ -16,14 +16,14 @@ Let's start by creating Students.
 
 User Can See an Individual Student
 As a user
-When I visit `/students/:id`
+<!-- When I visit `/students/:id`
 I see the name of a student
 User Can See a List of Students
 As a user
 When I visit `/students`
 I see a list of student names
 User Can Create a Student
-As a user
+As a user -->
 When I visit `/students/new`
 And I fill in name
 And I click submit
