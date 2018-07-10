@@ -144,6 +144,24 @@
         1,
         null
       ],
+      "/Users/Keegan/turing/2module/timed_challenge/spec/models/course_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/models/course.rb": [
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null
+      ],
       "/Users/Keegan/turing/2module/timed_challenge/spec/models/student_spec.rb": [
         1,
         null,
@@ -159,6 +177,10 @@
       "/Users/Keegan/turing/2module/timed_challenge/app/models/student.rb": [
         1,
         1,
+        1,
+        null,
+        1,
+        null,
         1,
         null
       ],
@@ -247,6 +269,6 @@
         null
       ]
     },
-    "timestamp": 1531257464
+    "timestamp": 1531258626
   }
 }
