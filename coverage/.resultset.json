@@ -1,0 +1,30 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/Keegan/turing/2module/timed_challenge/spec/feature/user_sees_student_show_page_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        0,
+        null,
+        0,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/models/student.rb": [
+        1,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/models/application_record.rb": [
+        1,
+        1,
+        null
+      ]
+    },
+    "timestamp": 1531250571
+  }
+}
