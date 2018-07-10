@@ -39,6 +39,10 @@
         1,
         null,
         null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/Keegan/turing/2module/timed_challenge/app/controllers/application_controller.rb": [
@@ -47,6 +51,6 @@
         null
       ]
     },
-    "timestamp": 1531251822
+    "timestamp": 1531252029
   }
 }
