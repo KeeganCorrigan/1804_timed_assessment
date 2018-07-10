@@ -8,15 +8,24 @@
         1,
         1,
         null,
-        0,
+        1,
         null,
         0,
         null,
         null
       ],
-      "/Users/Keegan/turing/2module/timed_challenge/app/models/student.rb": [
+      "/Users/Keegan/turing/2module/timed_challenge/spec/model/student_spec.rb": [
         1,
         null,
+        1,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/models/student.rb": [
+        1,
+        1,
         null
       ],
       "/Users/Keegan/turing/2module/timed_challenge/app/models/application_record.rb": [
@@ -25,6 +34,6 @@
         null
       ]
     },
-    "timestamp": 1531250571
+    "timestamp": 1531250995
   }
 }

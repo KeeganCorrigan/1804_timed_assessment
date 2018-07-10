@@ -6,6 +6,6 @@ describe 'user visits student show' do
 
     visit student_path(student_1)
 
-    expect(page).to have_content(student_1.name) 
+    expect(page).to have_content(student_1.name)
   end
 end
