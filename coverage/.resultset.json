@@ -1,7 +1,7 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/Keegan/turing/2module/timed_challenge/spec/feature/user_sees_student_show_page_spec.rb": [
+      "/Users/Keegan/turing/2module/timed_challenge/spec/features/user_sees_student_show_page_spec.rb": [
         1,
         null,
         1,
@@ -10,11 +10,11 @@
         null,
         1,
         null,
-        0,
+        1,
         null,
         null
       ],
-      "/Users/Keegan/turing/2module/timed_challenge/spec/model/student_spec.rb": [
+      "/Users/Keegan/turing/2module/timed_challenge/spec/models/student_spec.rb": [
         1,
         null,
         1,
@@ -32,8 +32,21 @@
         1,
         1,
         null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/controllers/students_controller.rb": [
+        1,
+        1,
+        1,
+        null,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
       ]
     },
-    "timestamp": 1531250995
+    "timestamp": 1531251822
   }
 }
