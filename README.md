@@ -36,12 +36,12 @@ And I enter a new name
 And I click submit
 I am on the student show page
 And I can see that student's new name -->
-User Can Delete a Student
+<!-- User Can Delete a Student
 As a user
 When I visit `/students`
 And I click "Delete" next to a student's name
 I see the students index
-And that student's name is no longer on the page
+And that student's name is no longer on the page -->
 Navigation
 As a user
 When I visit any page
