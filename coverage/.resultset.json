@@ -65,6 +65,22 @@
         null,
         null
       ],
+      "/Users/Keegan/turing/2module/timed_challenge/spec/features/user_can_visit_course_show_page_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        0,
+        null,
+        0,
+        null,
+        0,
+        0,
+        null,
+        null
+      ],
       "/Users/Keegan/turing/2module/timed_challenge/spec/features/user_sees_student_index_spec.rb": [
         1,
         null,
@@ -269,6 +285,6 @@
         null
       ]
     },
-    "timestamp": 1531258626
+    "timestamp": 1531258850
   }
 }
