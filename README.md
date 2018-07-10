@@ -24,11 +24,11 @@ When I visit `/students`
 I see a list of student names
 User Can Create a Student
 As a user -->
-When I visit `/students/new`
+<!-- When I visit `/students/new`
 And I fill in name
 And I click submit
 I am on the student show page
-And I see that student's name
+And I see that student's name -->
 User Can Edit a Student
 As a user
 When I visit `/students/:id/edit`
