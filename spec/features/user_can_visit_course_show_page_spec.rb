@@ -2,9 +2,11 @@ require "rails_helper"
 
 describe "a user visits course show page" do
   it "can view list of students in that course" do
-    course_1 = Course.create!(name: "oijasi")
-    student_1 = course_1.students.create!(name: "ohasd")
-    student_2 = course_1.students.create!(name: "pijasuh")
+    student_1 = Student.create!(name: "asd")
+    student_2 = Student.create!(name: "aaaaaaa")
+    course_1 = Course.create!(name: "zzzzzzzz")
+    StudentCourse.create!(student_id: student_1.id, course_id: course_1.id)
+    StudentCourse.create!(student_id: student_2.id, course_id: course_1.id)
 
     visit course_path(course_1)
 
