@@ -12,6 +12,15 @@ class StudentsController < ApplicationController
     @student = Student.new
   end
 
+  def create
+    @student = Student.new(student_params)
+    if @student.save
+      redirect_to student_path(@student)
+    else
+      render :new
+    end
+  end
+
   def edit
     @student = Student.find(params[:id])
   end
@@ -26,13 +35,11 @@ class StudentsController < ApplicationController
     end
   end
 
-  def create
-    @student = Student.new(student_params)
-    if @student.save
-      redirect_to student_path(@student)
-    else
-      render :new
-    end
+  def destroy
+    @student = Student.find(params[:id])
+    @student.destroy
+
+    redirect_to students_path
   end
 
   private

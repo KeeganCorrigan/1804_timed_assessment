@@ -5,11 +5,21 @@ describe "user visits /students" do
     student_1 = Student.create!(name: "uiohasd")
     student_2 = Student.create!(name: "uasdoiasihasd")
 
-
     visit students_path
 
     expect(page).to have_content(student_1.name)
     expect(page).to have_content(student_2.name)
+  end
 
+  it "can delete a student from index" do
+    student_1 = Student.create!(name: "uiohasd")
+
+    visit students_path
+
+    click_on "delete"
+
+    expect(current_path).to eq(students_path)
+    expect(page).to_not have_content(student_1.name)
+    expect(Student.all.count).to eq(0)
   end
 end

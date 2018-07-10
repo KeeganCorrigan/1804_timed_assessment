@@ -29,13 +29,13 @@ And I fill in name
 And I click submit
 I am on the student show page
 And I see that student's name -->
-User Can Edit a Student
+<!-- User Can Edit a Student
 As a user
 When I visit `/students/:id/edit`
 And I enter a new name
 And I click submit
 I am on the student show page
-And I can see that student's new name
+And I can see that student's new name -->
 User Can Delete a Student
 As a user
 When I visit `/students`
