@@ -1,0 +1,11 @@
+<%= form_for [@student, @address] do |f| %>
+  <%= f.label :street %>
+  <%= f.text_field :street %>
+  <%= f.label :zip_code %>
+  <%= f.text_field :zip_code %>
+  <%= f.label :state %>
+  <%= f.text_field :state %>
+  <%= f.label :zip_code %>
+  <%= f.text_field :zip_code %>
+  <%= f.submit %>
+<% end %>

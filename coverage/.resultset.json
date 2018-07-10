@@ -1,6 +1,24 @@
 {
   "RSpec": {
     "coverage": {
+      "/Users/Keegan/turing/2module/timed_challenge/spec/features/user_can_create_new_student_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null
+      ],
       "/Users/Keegan/turing/2module/timed_challenge/spec/features/user_can_edit_student_spec.rb": [
         1,
         null,
@@ -146,6 +164,36 @@
         1,
         null
       ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/controllers/addresses_controller.rb": [
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
+        1,
+        0,
+        0,
+        0,
+        0,
+        null,
+        0,
+        null,
+        null,
+        null,
+        1,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
+      "/Users/Keegan/turing/2module/timed_challenge/app/controllers/application_controller.rb": [
+        1,
+        1,
+        null
+      ],
       "/Users/Keegan/turing/2module/timed_challenge/app/controllers/students_controller.rb": [
         1,
         null,
@@ -197,13 +245,8 @@
         2,
         null,
         null
-      ],
-      "/Users/Keegan/turing/2module/timed_challenge/app/controllers/application_controller.rb": [
-        1,
-        1,
-        null
       ]
     },
-    "timestamp": 1531254498
+    "timestamp": 1531255454
   }
 }
